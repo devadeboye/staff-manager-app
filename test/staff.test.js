@@ -1,7 +1,7 @@
 const assert = require('assert');
 const staff = require('../lib/staff');
 
-describe('Staff test', () => {
+describe('Staff tests', () => {
     let john = new staff.Staff('John', 'Doe', 23, 5000)
     it('getLeaveStatus method test', () => {
         assert.strictEqual(john.getLeaveStatus(), false)
